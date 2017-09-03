@@ -1,0 +1,58 @@
+﻿1、短信验证码接口
+
+url： /smscode/<mobile>
+
+请求方式:  GET
+
+传入参数： json格式
+
+参数名        类型      是否必须    说明
+mobile        str       是          手机号
+piccode_id    str       是          图片验证码编号
+piccode_text  str       是          用户输入的图片验证码
+
+
+返回值： json格式
+
+参数名        类型      是否必须    说明
+errcode       str       是          结果代码
+errmsg        str       是          结果信息
+
+
+2. 注册接口
+
+url： /register
+
+请求方式:  POST
+
+传入参数： json格式
+
+参数名        类型      是否必须    说明
+mobile        str       是          手机号
+sms_code      str       是          短信验证码
+password      str       是          密码
+
+
+返回值： json格式
+
+参数名        类型      是否必须    说明
+errcode       str       是          结果代码
+errmsg        str       是          结果信息
+user_id       int       否          附加的信息，新用户的编号
+
+3、登录接口
+
+url: /session
+
+请求方式：POST
+
+传入参数：json格式
+
+参数名		类型	是否必须	说明
+mobile		str			是 		手机号
+password 	str			是 		密码
+
+返回值：json格式
+参数名		类型	是否必须	说明
+errcode		str 	是 		结果代码
+errmsg		str	是 		结果信息

@@ -1,0 +1,281 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+4260d65365c2_.py	../migrations/versions/4260d65365c2_.py	1;"	kind:file	line:1
+AREA_INFO_REDIS_EXPIRES	../ihome/constants.py	/^AREA_INFO_REDIS_EXPIRES = 7200$/;"	kind:variable	line:13
+AccountSid	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    AccountSid=''$/;"	kind:variable	line:23
+AccountToken	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    AccountToken=''$/;"	kind:variable	line:24
+AppId	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    AppId=''$/;"	kind:variable	line:25
+Area	../ihome/models.py	/^class Area(BaseModel, db.Model):$/;"	kind:class	line:68
+BaseModel	../ihome/models.py	/^class BaseModel(object):$/;"	kind:class	line:9
+Batch	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    Batch=''  #时间戳$/;"	kind:variable	line:34
+Bezier	../ihome/utils/captcha/captcha.py	/^class Bezier:$/;"	kind:class	line:17
+BodyType	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    BodyType = 'xml'#包体格式，可填值：json 、xml$/;"	kind:variable	line:35
+CCP	../ihome/utils/sms.py	/^class CCP(object):$/;"	kind:class	line:45
+CCPRestSDK.py	../ihome/libs/yuntongxun/CCPRestSDK.py	1;"	kind:file	line:1
+CallCancel	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def CallCancel(self,callSid,type):$/;"	kind:member	line:661
+CallResult	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def CallResult(self,callSid):$/;"	kind:member	line:712
+Captcha	../ihome/utils/captcha/captcha.py	/^class Captcha(object):$/;"	kind:class	line:57
+Config	../config.py	/^class Config:$/;"	kind:class	line:6
+CreateSubAccount	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def CreateSubAccount(self, friendlyName):$/;"	kind:member	line:85
+DATAERR	../ihome/utils/response_code.py	/^    DATAERR             = "4004"$/;"	kind:variable	line:8
+DATAEXIST	../ihome/utils/response_code.py	/^    DATAEXIST           = "4003"$/;"	kind:variable	line:7
+DBERR	../ihome/utils/response_code.py	/^    DBERR               = "4001"$/;"	kind:variable	line:5
+DEBUG	../config.py	/^    DEBUG = True$/;"	kind:variable	line:27
+DevelopmentConfig	../config.py	/^class DevelopmentConfig(Config):$/;"	kind:class	line:25
+Facility	../ihome/models.py	/^class Facility(BaseModel, db.Model):$/;"	kind:class	line:182
+HOME_PAGE_DATA_REDIS_EXPIRES	../ihome/constants.py	/^HOME_PAGE_DATA_REDIS_EXPIRES = 7200$/;"	kind:variable	line:19
+HOME_PAGE_MAX_HOUSES	../ihome/constants.py	/^HOME_PAGE_MAX_HOUSES = 5$/;"	kind:variable	line:16
+HOUSE_DETAIL_COMMENT_DISPLAY_COUNTS	../ihome/constants.py	/^HOUSE_DETAIL_COMMENT_DISPLAY_COUNTS = 30$/;"	kind:variable	line:22
+HOUSE_DETAIL_REDIS_EXPIRE_SECOND	../ihome/constants.py	/^HOUSE_DETAIL_REDIS_EXPIRE_SECOND = 7200$/;"	kind:variable	line:25
+HOUSE_LIST_PAGE_CAPACITY	../ihome/constants.py	/^HOUSE_LIST_PAGE_CAPACITY = 2$/;"	kind:variable	line:28
+HOUSE_LIST_REDIS_EXPIRES	../ihome/constants.py	/^HOUSE_LIST_REDIS_EXPIRES = 7200$/;"	kind:variable	line:31
+House	../ihome/models.py	/^class House(BaseModel, db.Model):$/;"	kind:class	line:94
+HouseImage	../ihome/models.py	/^class HouseImage(BaseModel, db.Model):$/;"	kind:class	line:191
+IMAGE_CODE_REDIS_EXPIRES	../ihome/constants.py	/^IMAGE_CODE_REDIS_EXPIRES = 300$/;"	kind:variable	line:4
+IOERR	../ihome/utils/response_code.py	/^    IOERR               = "4302"$/;"	kind:variable	line:18
+IPERR	../ihome/utils/response_code.py	/^    IPERR               = "4202"$/;"	kind:variable	line:16
+Iflog	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    Iflog=True #是否打印日志$/;"	kind:variable	line:33
+LOGINERR	../ihome/utils/response_code.py	/^    LOGINERR            = "4102"$/;"	kind:variable	line:10
+MediaFileUpload	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def MediaFileUpload (self,filename,body):$/;"	kind:member	line:804
+NODATA	../ihome/utils/response_code.py	/^    NODATA              = "4002"$/;"	kind:variable	line:6
+OK	../ihome/utils/response_code.py	/^    OK                  = "0"$/;"	kind:variable	line:4
+Order	../ihome/models.py	/^class Order(BaseModel, db.Model):$/;"	kind:class	line:201
+PARAMERR	../ihome/utils/response_code.py	/^    PARAMERR            = "4103"$/;"	kind:variable	line:11
+PERMANENT_SESSION_LIFETIME	../config.py	/^    PERMANENT_SESSION_LIFETIME = 86400  # session数据的有效期秒$/;"	kind:variable	line:22
+PWDERR	../ihome/utils/response_code.py	/^    PWDERR              = "4106"$/;"	kind:variable	line:14
+ProductionConfig	../config.py	/^class ProductionConfig(Config):$/;"	kind:class	line:30
+QINIU_DOMIN_PREFIX	../ihome/constants.py	/^QINIU_DOMIN_PREFIX = "http:\/\/o91qujnqh.bkt.clouddn.com\/"$/;"	kind:variable	line:10
+QueryCallState	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def QueryCallState (self,callid,action):$/;"	kind:member	line:753
+QuerySMSTemplate	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def QuerySMSTemplate(self,templateId):$/;"	kind:member	line:611
+REDIS_HOST	../config.py	/^    REDIS_HOST = "127.0.0.1"$/;"	kind:variable	line:15
+REDIS_PORT	../config.py	/^    REDIS_PORT = 6379$/;"	kind:variable	line:16
+REQERR	../ihome/utils/response_code.py	/^    REQERR              = "4201"$/;"	kind:variable	line:15
+REST	../ihome/libs/yuntongxun/CCPRestSDK.py	/^class REST:$/;"	kind:class	line:21
+RET	../ihome/utils/response_code.py	/^class RET:$/;"	kind:class	line:3
+ROLEERR	../ihome/utils/response_code.py	/^    ROLEERR             = "4105"$/;"	kind:variable	line:13
+RegexConverter	../ihome/utils/commons.py	/^class RegexConverter(BaseConverter):$/;"	kind:class	line:10
+SERVERERR	../ihome/utils/response_code.py	/^    SERVERERR           = "4500"$/;"	kind:variable	line:19
+SESSIONERR	../ihome/utils/response_code.py	/^    SESSIONERR          = "4101"$/;"	kind:variable	line:9
+SESSION_REDIS	../config.py	/^    SESSION_REDIS = redis.StrictRedis(host=REDIS_HOST, port=REDIS_PORT)  # 保存session数据的redis配置$/;"	kind:variable	line:21
+SESSION_TYPE	../config.py	/^    SESSION_TYPE = "redis"  # 保存session数据的地方$/;"	kind:variable	line:19
+SESSION_USE_SIGNER	../config.py	/^    SESSION_USE_SIGNER = True  # 为session id进行签名$/;"	kind:variable	line:20
+SHOW_LOG	../ihome/libs/yuntongxun/xmltojson.py	/^    SHOW_LOG = True$/;"	kind:variable	line:11
+SMS_CODE_REDIS_EXPIRES	../ihome/constants.py	/^SMS_CODE_REDIS_EXPIRES = 300$/;"	kind:variable	line:7
+SQLALCHEMY_DATABASE_URI	../config.py	/^    SQLALCHEMY_DATABASE_URI = "mysql:\/\/root:mysql@127.0.0.1\/ihome"  # 数据库$/;"	kind:variable	line:11
+SQLALCHEMY_TRACK_MODIFICATIONS	../config.py	/^    SQLALCHEMY_TRACK_MODIFICATIONS = True  # 追踪数据库的修改行为，如果不设置会报警告，不影响代码的执行$/;"	kind:variable	line:12
+ServerIP	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    ServerIP=''$/;"	kind:variable	line:30
+ServerPort	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    ServerPort=''$/;"	kind:variable	line:31
+SoftVersion	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    SoftVersion=''$/;"	kind:variable	line:32
+SubAccountSid	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    SubAccountSid=''$/;"	kind:variable	line:26
+SubAccountToken	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    SubAccountToken=''$/;"	kind:variable	line:27
+THIRDERR	../ihome/utils/response_code.py	/^    THIRDERR            = "4301"$/;"	kind:variable	line:17
+UNKOWNERR	../ihome/utils/response_code.py	/^    UNKOWNERR           = "4501"$/;"	kind:variable	line:20
+USERERR	../ihome/utils/response_code.py	/^    USERERR             = "4104"$/;"	kind:variable	line:12
+User	../ihome/models.py	/^class User(BaseModel, db.Model):$/;"	kind:class	line:16
+VoIPAccount	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    VoIPAccount=''$/;"	kind:variable	line:28
+VoIPPassword	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    VoIPPassword=''$/;"	kind:variable	line:29
+XML_PATH	../ihome/libs/yuntongxun/xmltojson.py	/^    XML_PATH = None$/;"	kind:variable	line:13
+__init__	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def __init__(self,ServerIP,ServerPort,SoftVersion):$/;"	kind:member	line:41
+__init__	../ihome/utils/captcha/captcha.py	/^    def __init__(self):$/;"	kind:member	line:18
+__init__	../ihome/utils/captcha/captcha.py	/^    def __init__(self):$/;"	kind:member	line:58
+__init__	../ihome/utils/commons.py	/^    def __init__(self, url_map, *args):$/;"	kind:member	line:12
+__init__.py	../ihome/__init__.py	1;"	kind:file	line:1
+__init__.py	../ihome/api_1_0/__init__.py	1;"	kind:file	line:1
+__init__.py	../ihome/libs/__init__.py	1;"	kind:file	line:1
+__init__.py	../ihome/libs/yuntongxun/__init__.py	1;"	kind:file	line:1
+__init__.py	../ihome/utils/__init__.py	1;"	kind:file	line:1
+__init__.py	../ihome/utils/captcha/__init__.py	1;"	kind:file	line:1
+__new__	../ihome/utils/sms.py	/^    def __new__(cls, *args, **kwargs):$/;"	kind:member	line:48
+__tablename__	../ihome/models.py	/^    __tablename__ = "ih_area_info"$/;"	kind:variable	line:71
+__tablename__	../ihome/models.py	/^    __tablename__ = "ih_facility_info"$/;"	kind:variable	line:185
+__tablename__	../ihome/models.py	/^    __tablename__ = "ih_house_image"$/;"	kind:variable	line:194
+__tablename__	../ihome/models.py	/^    __tablename__ = "ih_house_info"$/;"	kind:variable	line:97
+__tablename__	../ihome/models.py	/^    __tablename__ = "ih_order_info"$/;"	kind:variable	line:204
+__tablename__	../ihome/models.py	/^    __tablename__ = "ih_user_profile"$/;"	kind:variable	line:19
+_accountSid	../ihome/utils/sms.py	/^_accountSid = '8aaf0708568d4143015697b0f4960888'$/;"	kind:variable	line:6
+_accountToken	../ihome/utils/sms.py	/^_accountToken = '42d3191f0e6745d6a9ddc6c795da0bed'$/;"	kind:variable	line:9
+_appId	../ihome/utils/sms.py	/^_appId = '8aaf0708568d4143015697b0f56e088f'$/;"	kind:variable	line:12
+_serverIP	../ihome/utils/sms.py	/^_serverIP = 'sandboxapp.cloopen.com'$/;"	kind:variable	line:15
+_serverPort	../ihome/utils/sms.py	/^_serverPort = '8883'$/;"	kind:variable	line:18
+_softVersion	../ihome/utils/sms.py	/^_softVersion = '2013-12-26'$/;"	kind:variable	line:21
+a	../ihome/libs/yuntongxun/xmltojson.py	/^    a={}$/;"	kind:variable	line:14
+accAuth	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def accAuth(self):$/;"	kind:member	line:880
+accept_reject_order	../ihome/api_1_0/orders.py	/^def accept_reject_order(order_id):$/;"	kind:function	line:117
+access_key	../ihome/utils/image_storage.py	/^access_key = 'uzc59bVURbUbazey9vrexXKocNKBUN8NuLijk57N'$/;"	kind:variable	line:9
+acreage	../ihome/models.py	/^    acreage = db.Column(db.Integer, default=0)  # 房屋面积$/;"	kind:variable	line:106
+address	../ihome/models.py	/^    address = db.Column(db.String(512), default="")  # 地址$/;"	kind:variable	line:104
+after_request	../ihome/api_1_0/__init__.py	/^def after_request(response):$/;"	kind:function	line:11
+amount	../ihome/models.py	/^    amount = db.Column(db.Integer, nullable=False)  # 订单的总金额$/;"	kind:variable	line:213
+api	../ihome/api_1_0/__init__.py	/^api = Blueprint('api', __name__)$/;"	kind:variable	line:5
+app	../manage.py	/^app = create_app("development")$/;"	kind:variable	line:9
+area_id	../ihome/models.py	/^    area_id = db.Column(db.Integer, db.ForeignKey("ih_area_info.id"), nullable=False)  # 归属地的区域编号$/;"	kind:variable	line:101
+auth_to_dict	../ihome/models.py	/^    def auth_to_dict(self):$/;"	kind:member	line:58
+avatar_url	../ihome/models.py	/^    avatar_url = db.Column(db.String(128))  # 用户头像路径$/;"	kind:variable	line:27
+background	../ihome/utils/captcha/captcha.py	/^    def background(self, image):$/;"	kind:member	line:89
+beds	../ihome/models.py	/^    beds = db.Column(db.String(64), default="")  # 房屋床铺的配置$/;"	kind:variable	line:109
+begin_date	../ihome/models.py	/^    begin_date = db.Column(db.DateTime, nullable=False)  # 预订的起始时间$/;"	kind:variable	line:209
+billRecords	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def billRecords(self,date,keywords):$/;"	kind:member	line:520
+branch_labels	../migrations/versions/4260d65365c2_.py	/^branch_labels = None$/;"	kind:variable	line:15
+bucket_name	../ihome/utils/image_storage.py	/^bucket_name = 'ihome'$/;"	kind:variable	line:13
+callBack	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def callBack(self,fromPhone,to,customerSerNum,fromSerNum,promptTone,alwaysPlay,terminalDtmf,userData,maxCallTime,hangupCdrUrl,needBothCdr,needRecord,countDownTime,countDownPrompt):$/;"	kind:member	line:306
+capacity	../ihome/models.py	/^    capacity = db.Column(db.Integer, default=1)  # 房屋容纳的人数$/;"	kind:variable	line:108
+captcha	../ihome/utils/captcha/captcha.py	/^    def captcha(self, path=None, fmt='JPEG'):$/;"	kind:member	line:190
+captcha	../ihome/utils/captcha/captcha.py	/^captcha = Captcha.instance()$/;"	kind:variable	line:220
+captcha.py	../ihome/utils/captcha/captcha.py	1;"	kind:file	line:1
+ccp	../ihome/utils/sms.py	/^    ccp = CCP()$/;"	kind:variable	line:73
+change_user_name	../ihome/api_1_0/profile.py	/^def change_user_name():$/;"	kind:function	line:15
+check_login	../ihome/api_1_0/passport.py	/^def check_login():$/;"	kind:function	line:108
+check_password	../ihome/models.py	/^    def check_password(self, passwd):$/;"	kind:member	line:43
+comment	../ihome/models.py	/^    comment = db.Column(db.Text)  # 订单的评论信息或者拒单原因$/;"	kind:variable	line:225
+commons.py	../ihome/utils/commons.py	1;"	kind:file	line:1
+config	../config.py	/^config = {$/;"	kind:variable	line:35
+config	../migrations/env.py	/^config = context.config$/;"	kind:variable	line:9
+config.py	../config.py	1;"	kind:file	line:1
+constants.py	../ihome/constants.py	1;"	kind:file	line:1
+create_app	../ihome/__init__.py	/^def create_app(config_name):$/;"	kind:function	line:33
+create_time	../ihome/models.py	/^    create_time = db.Column(db.DateTime, default=datetime.now)  # 记录的创建时间$/;"	kind:variable	line:12
+csrf	../ihome/__init__.py	/^csrf = CSRFProtect()$/;"	kind:variable	line:19
+curve	../ihome/utils/captcha/captcha.py	/^    def curve(self, image, width=4, number=6, color=None):$/;"	kind:member	line:97
+days	../ihome/models.py	/^    days = db.Column(db.Integer, nullable=False)  # 预订的总天数$/;"	kind:variable	line:211
+db	../ihome/__init__.py	/^db = SQLAlchemy()$/;"	kind:variable	line:14
+depends_on	../migrations/versions/4260d65365c2_.py	/^depends_on = None$/;"	kind:variable	line:16
+deposit	../ihome/models.py	/^    deposit = db.Column(db.Integer, default=0)  # 房屋押金$/;"	kind:variable	line:110
+down_revision	../migrations/versions/4260d65365c2_.py	/^down_revision = None$/;"	kind:variable	line:14
+downgrade	../migrations/versions/4260d65365c2_.py	/^def downgrade():$/;"	kind:function	line:109
+end_date	../ihome/models.py	/^    end_date = db.Column(db.DateTime, nullable=False)  # 预订的结束时间$/;"	kind:variable	line:210
+env.py	../migrations/env.py	1;"	kind:file	line:1
+error_map	../ihome/utils/response_code.py	/^error_map = {$/;"	kind:variable	line:22
+facilities	../ihome/models.py	/^    facilities = db.relationship("Facility", secondary=house_facility)  # 房屋的设施$/;"	kind:variable	line:115
+file_log_handler	../ihome/__init__.py	/^file_log_handler = RotatingFileHandler("logs\/log", maxBytes=1024*1024*100, backupCount=10)$/;"	kind:variable	line:24
+file_name	../ihome/utils/image_storage.py	/^    file_name = raw_input("输入上传的文件")$/;"	kind:variable	line:42
+formatter	../ihome/__init__.py	/^formatter = logging.Formatter('%(levelname)s %(filename)s:%(lineno)d %(message)s')$/;"	kind:variable	line:26
+generate_captcha	../ihome/utils/captcha/captcha.py	/^    def generate_captcha(self):$/;"	kind:member	line:216
+generate_image_code	../ihome/api_1_0/verifycode.py	/^def generate_image_code(image_code_id):$/;"	kind:function	line:16
+getSubAccounts	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def getSubAccounts(self, startNo,offset):$/;"	kind:member	line:135
+get_areas_info	../ihome/api_1_0/house.py	/^def get_areas_info():$/;"	kind:function	line:15
+get_element_attrib	../ihome/libs/yuntongxun/xmltojson.py	/^    def get_element_attrib(self,element):$/;"	kind:member	line:37
+get_element_children	../ihome/libs/yuntongxun/xmltojson.py	/^    def get_element_children(self,element):$/;"	kind:member	line:52
+get_element_tag	../ihome/libs/yuntongxun/xmltojson.py	/^    def get_element_tag(self,element):$/;"	kind:member	line:29
+get_element_text	../ihome/libs/yuntongxun/xmltojson.py	/^    def get_element_text(self,element):$/;"	kind:member	line:45
+get_elements_attrib	../ihome/libs/yuntongxun/xmltojson.py	/^    def get_elements_attrib(self,elements):$/;"	kind:member	line:70
+get_elements_tag	../ihome/libs/yuntongxun/xmltojson.py	/^    def get_elements_tag(self,elements):$/;"	kind:member	line:60
+get_elements_text	../ihome/libs/yuntongxun/xmltojson.py	/^    def get_elements_text(self,elements):$/;"	kind:member	line:80
+get_house_detail	../ihome/api_1_0/house.py	/^def get_house_detail(house_id):$/;"	kind:function	line:269
+get_house_index	../ihome/api_1_0/house.py	/^def get_house_index():$/;"	kind:function	line:227
+get_houses_list	../ihome/api_1_0/house.py	/^def get_houses_list(): $/;"	kind:function	line:315
+get_root	../ihome/libs/yuntongxun/xmltojson.py	/^    def get_root(self,path):$/;"	kind:member	line:17
+get_user_auth	../ihome/api_1_0/profile.py	/^def get_user_auth():$/;"	kind:function	line:106
+get_user_houses	../ihome/api_1_0/house.py	/^def get_user_houses():$/;"	kind:function	line:198
+get_user_orders	../ihome/api_1_0/orders.py	/^def get_user_orders():$/;"	kind:function	line:87
+get_user_profile	../ihome/api_1_0/profile.py	/^def get_user_profile():$/;"	kind:function	line:84
+house.py	../ihome/api_1_0/house.py	1;"	kind:file	line:1
+house_facility	../ihome/models.py	/^house_facility = db.Table($/;"	kind:variable	line:87
+house_id	../ihome/models.py	/^    house_id = db.Column(db.Integer, db.ForeignKey("ih_house_info.id"), nullable=False)  # 房屋编号$/;"	kind:variable	line:197
+house_id	../ihome/models.py	/^    house_id = db.Column(db.Integer, db.ForeignKey("ih_house_info.id"), nullable=False)  # 预订的房间编号$/;"	kind:variable	line:208
+house_price	../ihome/models.py	/^    house_price = db.Column(db.Integer, nullable=False)  # 房屋的单价$/;"	kind:variable	line:212
+houses	../ihome/models.py	/^    houses = db.relationship("House", backref="area")  # 区域的房屋$/;"	kind:variable	line:75
+houses	../ihome/models.py	/^    houses = db.relationship("House", backref="user")  # 用户发布的房屋$/;"	kind:variable	line:28
+html	../ihome/web_page.py	/^html = Blueprint("html", __name__)$/;"	kind:variable	line:7
+html_file	../ihome/web_page.py	/^def html_file(file_name):$/;"	kind:function	line:11
+id	../ihome/models.py	/^    id = db.Column(db.Integer, primary_key=True)  # 区域编号$/;"	kind:variable	line:73
+id	../ihome/models.py	/^    id = db.Column(db.Integer, primary_key=True)  # 房屋编号$/;"	kind:variable	line:99
+id	../ihome/models.py	/^    id = db.Column(db.Integer, primary_key=True)  # 用户编号$/;"	kind:variable	line:21
+id	../ihome/models.py	/^    id = db.Column(db.Integer, primary_key=True)  # 订单编号$/;"	kind:variable	line:206
+id	../ihome/models.py	/^    id = db.Column(db.Integer, primary_key=True)  # 设施编号$/;"	kind:variable	line:187
+id	../ihome/models.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	kind:variable	line:196
+id_card	../ihome/models.py	/^    id_card = db.Column(db.String(20))  # 身份证号$/;"	kind:variable	line:26
+image_storage.py	../ihome/utils/image_storage.py	1;"	kind:file	line:1
+images	../ihome/models.py	/^    images = db.relationship("HouseImage")  # 房屋的图片$/;"	kind:variable	line:116
+index_image_url	../ihome/models.py	/^    index_image_url = db.Column(db.String(256), default="")  # 房屋主图片的路径$/;"	kind:variable	line:114
+initialize	../ihome/utils/captcha/captcha.py	/^    def initialize(self, width=200, height=75, color=None, text=None, fonts=None):$/;"	kind:member	line:69
+instance	../ihome/utils/captcha/captcha.py	/^    def instance():$/;"	kind:member	line:64
+ivrDial	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def ivrDial(self,number,userdata,record):$/;"	kind:member	line:475
+landingCall	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def landingCall(self,to,mediaName,mediaTxt,displayNum,playTimes,respUrl,userData,maxCallTime,speed,volume,pitch,bgsound):$/;"	kind:member	line:366
+log	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def log(self,url,body,data):$/;"	kind:member	line:73
+logger	../migrations/env.py	/^logger = logging.getLogger('alembic.env')$/;"	kind:variable	line:14
+login	../ihome/api_1_0/passport.py	/^def login():$/;"	kind:function	line:71
+login_required	../ihome/utils/commons.py	/^def login_required(f):$/;"	kind:function	line:17
+logout	../ihome/api_1_0/passport.py	/^def logout():$/;"	kind:function	line:121
+m	../ihome/libs/yuntongxun/xmltojson.py	/^    m=[]$/;"	kind:variable	line:15
+main	../ihome/libs/yuntongxun/xmltojson.py	/^    def main(self,xml):$/;"	kind:member	line:92
+main2	../ihome/libs/yuntongxun/xmltojson.py	/^    def main2(self,xml):$/;"	kind:member	line:135
+make_bezier	../ihome/utils/captcha/captcha.py	/^    def make_bezier(self, n):$/;"	kind:member	line:38
+manage.py	../manage.py	1;"	kind:file	line:1
+manager	../manage.py	/^manager = Manager(app)$/;"	kind:variable	line:12
+max_days	../ihome/models.py	/^    max_days = db.Column(db.Integer, default=0)  # 最多入住天数，0表示不限制$/;"	kind:variable	line:112
+min_days	../ihome/models.py	/^    min_days = db.Column(db.Integer, default=1)  # 最少入住天数$/;"	kind:variable	line:111
+mobile	../ihome/models.py	/^    mobile = db.Column(db.String(11), unique=True, nullable=False)  # 手机号$/;"	kind:variable	line:24
+models.py	../ihome/models.py	1;"	kind:file	line:1
+name	../ihome/models.py	/^    name = db.Column(db.String(32), nullable=False)  # 区域名字$/;"	kind:variable	line:74
+name	../ihome/models.py	/^    name = db.Column(db.String(32), nullable=False)  # 设施名字$/;"	kind:variable	line:188
+name	../ihome/models.py	/^    name = db.Column(db.String(32), unique=True, nullable=False)  # 用户昵称$/;"	kind:variable	line:22
+noise	../ihome/utils/captcha/captcha.py	/^    def noise(self, image, number=50, level=2, color=None):$/;"	kind:member	line:110
+offset	../ihome/utils/captcha/captcha.py	/^    def offset(image, dx_factor=0.1, dy_factor=0.2):$/;"	kind:member	line:177
+order_count	../ihome/models.py	/^    order_count = db.Column(db.Integer, default=0)  # 预订完成的该房屋的订单数$/;"	kind:variable	line:113
+orders	../ihome/models.py	/^    orders = db.relationship("Order", backref="house")  # 房屋的订单$/;"	kind:variable	line:117
+orders	../ihome/models.py	/^    orders = db.relationship("Order", backref="user")  # 用户下的订单$/;"	kind:variable	line:29
+orders.py	../ihome/api_1_0/orders.py	1;"	kind:file	line:1
+pascal_row	../ihome/utils/captcha/captcha.py	/^    def pascal_row(self, n):$/;"	kind:member	line:22
+passport.py	../ihome/api_1_0/passport.py	1;"	kind:file	line:1
+password	../ihome/models.py	/^    def password(self):$/;"	kind:member	line:33
+password	../ihome/models.py	/^    def password(self, passwd):$/;"	kind:member	line:39
+password_hash	../ihome/models.py	/^    password_hash = db.Column(db.String(128), nullable=False)  # 加密的密码$/;"	kind:variable	line:23
+price	../ihome/models.py	/^    price = db.Column(db.Integer, default=0)  # 单价，单位：分$/;"	kind:variable	line:103
+process_revision_directives	../migrations/env.py	/^    def process_revision_directives(context, revision, directives):$/;"	kind:function	line:61
+profile.py	../ihome/api_1_0/profile.py	1;"	kind:file	line:1
+queryAccountInfo	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def queryAccountInfo(self):$/;"	kind:member	line:570
+querySubAccount	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def querySubAccount(self, friendlyName):$/;"	kind:member	line:185
+random_color	../ihome/utils/captcha/captcha.py	/^    def random_color(start, end, opacity=None):$/;"	kind:member	line:79
+real_name	../ihome/models.py	/^    real_name = db.Column(db.String(32))  # 真实姓名$/;"	kind:variable	line:25
+redis_store	../ihome/__init__.py	/^redis_store = redis.StrictRedis(host=Config.REDIS_HOST, port=Config.REDIS_PORT)$/;"	kind:variable	line:16
+register	../ihome/api_1_0/passport.py	/^def register():  $/;"	kind:function	line:14
+response_code.py	../ihome/utils/response_code.py	1;"	kind:file	line:1
+revision	../migrations/versions/4260d65365c2_.py	/^revision = '4260d65365c2'$/;"	kind:variable	line:13
+room_count	../ihome/models.py	/^    room_count = db.Column(db.Integer, default=1)  # 房间数目$/;"	kind:variable	line:105
+rotate	../ihome/utils/captcha/captcha.py	/^    def rotate(image, angle=25):$/;"	kind:member	line:186
+run_migrations_offline	../migrations/env.py	/^def run_migrations_offline():$/;"	kind:function	line:31
+run_migrations_online	../migrations/env.py	/^def run_migrations_online():$/;"	kind:function	line:50
+save_house_image	../ihome/api_1_0/house.py	/^def save_house_image(house_id):$/;"	kind:function	line:148
+save_new_house	../ihome/api_1_0/house.py	/^def save_new_house():$/;"	kind:function	line:56
+save_order	../ihome/api_1_0/orders.py	/^def save_order():$/;"	kind:function	line:15
+save_order_comment	../ihome/api_1_0/orders.py	/^def save_order_comment(order_id):$/;"	kind:function	line:167
+secret_key	../ihome/utils/image_storage.py	/^secret_key = '-9lenw28jU2REojvGkcsEPWk5Nm9V2HIVqb5Nkts'$/;"	kind:variable	line:10
+sendTemplateSMS	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def sendTemplateSMS(self, to,datas,tempId):$/;"	kind:member	line:237
+send_sms_code	../ihome/api_1_0/verifycode.py	/^def send_sms_code(mobile):$/;"	kind:function	line:34
+send_template_sms	../ihome/utils/sms.py	/^    def send_template_sms(self, to, datas, temp_id):$/;"	kind:member	line:57
+setAccount	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def setAccount(self,AccountSid,AccountToken):$/;"	kind:member	line:52
+setAppId	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def setAppId(self,AppId):$/;"	kind:member	line:70
+setHttpHeader	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def setHttpHeader(self,req):$/;"	kind:member	line:908
+setSubAccount	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def setSubAccount(self,SubAccountSid,SubAccountToken):$/;"	kind:member	line:62
+set_user_auth	../ihome/api_1_0/profile.py	/^def set_user_auth():  $/;"	kind:function	line:129
+set_user_avatar	../ihome/api_1_0/profile.py	/^def set_user_avatar():$/;"	kind:function	line:48
+smooth	../ihome/utils/captcha/captcha.py	/^    def smooth(image):$/;"	kind:member	line:94
+sms.py	../ihome/utils/sms.py	1;"	kind:file	line:1
+status	../ihome/models.py	/^    status = db.Column(  # 订单的状态$/;"	kind:variable	line:214
+storage	../ihome/utils/image_storage.py	/^def storage(data):$/;"	kind:function	line:16
+subAuth	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def subAuth(self):$/;"	kind:member	line:854
+target_metadata	../migrations/env.py	/^target_metadata = current_app.extensions['migrate'].db.metadata$/;"	kind:variable	line:23
+text	../ihome/utils/captcha/captcha.py	/^    def text(self, image, fonts, font_sizes=None, drawings=None, squeeze_factor=0.75, color=None):$/;"	kind:member	line:123
+title	../ihome/models.py	/^    title = db.Column(db.String(64), nullable=False)  # 标题$/;"	kind:variable	line:102
+to_basic_dict	../ihome/models.py	/^    def to_basic_dict(self):$/;"	kind:member	line:119
+to_dict	../ihome/models.py	/^    def to_dict(self):$/;"	kind:member	line:227
+to_dict	../ihome/models.py	/^    def to_dict(self):$/;"	kind:member	line:47
+to_dict	../ihome/models.py	/^    def to_dict(self):$/;"	kind:member	line:77
+to_full_dict	../ihome/models.py	/^    def to_full_dict(self):$/;"	kind:member	line:135
+unit	../ihome/models.py	/^    unit = db.Column(db.String(32), default="")  # 房屋单元， 如几室几厅$/;"	kind:variable	line:107
+update_time	../ihome/models.py	/^    update_time = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)  # 记录的更新时间$/;"	kind:variable	line:13
+upgrade	../migrations/versions/4260d65365c2_.py	/^def upgrade():$/;"	kind:function	line:19
+url	../ihome/models.py	/^    url = db.Column(db.String(256), nullable=False)  # 图片的路径$/;"	kind:variable	line:198
+user_id	../ihome/models.py	/^    user_id = db.Column(db.Integer, db.ForeignKey("ih_user_profile.id"), nullable=False)  # 下订单的用户编号$/;"	kind:variable	line:207
+user_id	../ihome/models.py	/^    user_id = db.Column(db.Integer, db.ForeignKey("ih_user_profile.id"), nullable=False)  # 房屋主人的用户编号$/;"	kind:variable	line:100
+verifycode.py	../ihome/api_1_0/verifycode.py	1;"	kind:file	line:1
+voiceVerify	../ihome/libs/yuntongxun/CCPRestSDK.py	/^    def voiceVerify(self,verifyCode,playTimes,to,displayNum,respUrl,lang,userData):$/;"	kind:member	line:422
+warp	../ihome/utils/captcha/captcha.py	/^    def warp(image, dx_factor=0.27, dy_factor=0.21):$/;"	kind:member	line:156
+web_page.py	../ihome/web_page.py	1;"	kind:file	line:1
+wrapper	../ihome/utils/commons.py	/^    def wrapper(*args, **kwargs):$/;"	kind:function	line:20
+xmltojson	../ihome/libs/yuntongxun/xmltojson.py	/^class xmltojson:$/;"	kind:class	line:8
+xmltojson.py	../ihome/libs/yuntongxun/xmltojson.py	1;"	kind:file	line:1
